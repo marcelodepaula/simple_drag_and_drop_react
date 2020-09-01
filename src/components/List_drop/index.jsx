@@ -12,7 +12,7 @@ export default function List_drop(props){
 
   return (
     <div id="test"
-      style={{flex: '1', backgroundColor: 'orange', height:'100%', padding:'15'}}
+      style={{flex: '1', backgroundColor: 'orange', height:'100%', padding:'15px'}}
       onDragEnter={e=>{e.preventDefault(); e.stopPropagation()}}
       onDragOver={e=>{e.preventDefault(); e.stopPropagation()}}
       onDrop={ev=>dropped(ev, this)}

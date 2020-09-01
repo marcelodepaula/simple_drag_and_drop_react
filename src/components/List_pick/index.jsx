@@ -9,7 +9,7 @@ export default function List_pick(props){
   }
 
   return (
-    <div style={{flex: '1', backgroundColor: 'cyan', height:'100%', padding:'15'}}>
+    <div style={{flex: '1', backgroundColor: 'cyan', height:'100%', padding:'15px'}}>
       <h1>Pick from here</h1>
       {
         list.map(element => <p draggable onDragStart={e=>dragStarted(e)} key={element}>{element}</p>)
